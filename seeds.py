@@ -22,7 +22,7 @@ disciplines = [
 
 TEACHERS_NUMBERS = 4
 
-conn = connect("hw.db")
+conn = connect("hw_06.db")
 cur = conn.cursor()
 
 def seeds_teachers():
